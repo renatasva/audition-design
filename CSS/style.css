@@ -1,0 +1,85 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #1B1B20;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .container {
+  width: 97%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background: #1B1B20;
+  color: #ffffff;
+  min-height: 70px;
+  border-bottom: #FF3F98 1px solid;
+  border-radius: 0 0 1.5rem 1.5rem;
+  margin-top: 10px;
+}
+
+header ul{
+  padding:0;
+}
+
+header li{
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header #navbar-left{
+  float:left;
+}
+
+header #navbar-right{
+  float:right;
+}
+
+header nav{
+  margin: 0;
+  margin-top:10px;
+  padding: 0;
+}
+
+.menu-button {
+  color: #FFF3FB;
+  background: linear-gradient(to bottom, #FF51AA 0%,#FF51AA 50%,#FF51AA 50%,#FF3F98 50%,#FF3F98 100%);
+  box-shadow: inset 0px 4px 4px #FDA0DD;
+  border-radius: 10px;
+  padding: 13px 38px;
+
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.menu-button:hover {
+  text-decoration: none;
+}
+
+.menu-button:active {
+  background: #FFFFFF;
+  color: #FF3F98;
+  opacity: 0.2;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 180px;
+  position: absolute;
+  align-items: center;
+  margin-left: 25px;
+}
